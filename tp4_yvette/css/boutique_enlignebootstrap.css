@@ -1,0 +1,21 @@
+header{
+    background:#F7F7F0;
+    
+}
+.information h5,.compte h5{
+    font-size:1em;
+}
+
+.information p,.compte p{
+    font-size:0.8em;
+    font-style:italic;
+}
+.conseil{
+    margin-top:-3.5em;
+}
+.carrelage{
+    height: 420px;
+}
+.info p{
+    line-height:0.5em;
+}

@@ -1,0 +1,143 @@
+body{
+    padding:0;
+    margin:0;
+}
+.conteneur{
+    width: 1000px;
+    margin:auto;
+}
+/* header */
+.logo,.aide,.compte{
+    float: left;
+    width: calc(100%/3);
+    
+    
+     
+}
+.clear{
+    clear: both;
+}
+
+.logo img{
+    float: left;
+}
+
+.logo h1{
+    font-style: italic;
+    font-weight: bold;
+    margin:0 0 0 50px;
+}
+.logo p{
+    font-size:0.8rem;
+    font-style: italic;
+    color:red;
+    margin-left:50px;
+}
+.aide h3{
+    font-weight: bold;
+    color:blue;
+    margin-top:0;
+
+}
+.aide .numero{
+    background-image:url("../IMG/aide.png");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    width: 170px;
+    height: 23px;
+   
+    
+    
+    
+}
+.numero span{
+    margin-left: 50px;
+    color:blue;
+    
+}
+.aide p{
+    font-size:0.8rem;
+    font-style: italic;
+    margin-top: 0;
+    opacity:0.5;
+}
+ .compte p img {
+    vertical-align:middle;
+} 
+.compte {
+    text-align: center;
+    width: 333px;
+    height: 146px;
+    background: blue;
+}
+nav{
+    margin-top: 10px;
+    background:blue;
+    height: 25px;
+}
+nav a{
+text-decoration: none;
+color:white;
+margin:5px 40px;
+}
+nav a:first-child{
+    background:pink;
+    margin-left:0;
+    padding:0 40px 7px 40px;
+}
+
+/* corps de la page */
+.paiement,.service{
+float: left;
+width:22%;
+}
+
+img[src="IMG/fond1.png"]{
+    float: left;
+    margin:5px 10px;
+   
+}
+.histoire{
+    float: left;
+    width:50%;  
+}
+
+.paiement h5,.histoire h5 ,.service h5{
+    color:blue;
+    font-size: 100%;
+}
+.plan,.coup_coeur,.plaisir{
+    float: left;
+    width:30%;
+    border:1px solid;
+    margin-right:20px;
+    border-radius: 10px;
+}
+.plan img,.coup_coeur img,.plaisir img{
+    float: left;
+}
+.plan p,.coup_coeur p,.plaisir p{
+    margin-left:100px;
+}
+.plan a,.coup_coeur a,.plaisir a{
+    margin-left:250px;
+}
+
+/* pied de la page */
+footer ul{
+    list-style: none;
+    color:white;
+    text-align: center;
+}
+footer ul li{
+    display: inline;
+}
+footer{
+    height: 25px;
+    background: blue;
+}
+
+
+
+
+

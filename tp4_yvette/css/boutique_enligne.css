@@ -1,0 +1,655 @@
+body{
+   padding:0;
+   margin:0;
+   font-family: Arial, Helvetica, sans-serif;
+
+  
+}
+.conteneur{
+    margin:0 auto;
+    width:70%; 
+}
+/**********************entete********************/
+
+header{
+  
+    background: #F7F7F0;
+    height:15.5vh;
+ 
+}
+.titre{
+   background:#333333;
+  display:flex; 
+ 
+  justify-content:space-between;
+  height:2vh;
+  color:white;
+  line-height:2vh;
+}
+.titre span i{
+   transform: rotate(90deg);
+}
+.titre p{
+    margin:0 5em 0;
+    font-size:1em;
+}
+.titre p span:last-child{
+    font-style: italic;
+    font-size:0.9em;
+}
+
+
+.logo{
+margin:3vh 0 0 1vh;
+float: left;
+width:65%;
+
+}
+.logo p{
+margin-top:0;
+font-size:1.1em; 
+font-style: italic;
+
+}
+
+.information{
+    margin-top:1em;
+    float: left;
+    width:33%;
+   
+}
+.information hr{
+    margin:0;
+   
+}
+
+.devis,.conseil{
+  
+    float: left;
+    width:49%;
+   
+}
+.panier,.compte{
+  
+    float: left;
+    width:49%;
+    height:3.5vh; 
+     position:relative; 
+}
+/***********************DEVIS********************************/
+
+
+.devis img{
+    float: left;
+}
+.devis h2{
+
+    margin:0;
+    font-size:0.8em;
+}
+.devis p{
+    font-style: italic;
+    margin:0;
+    font-size:0.7em;
+}
+/*COMPTE*/
+.compte img{
+position:absolute;
+right:0;
+top:0.2em;
+}
+.compte h2{
+    margin:0;
+    padding-left:5em;
+    font-size:0.8em;
+}
+.compte p{
+    font-style: italic;
+    margin:0;
+    padding-left:6em;
+    font-size:0.7em;
+}
+/*CONSEIL**/
+.conseil img{
+    float: left;
+    
+    }
+    .conseil h2{
+        margin:0;
+        font-size:0.8em;
+    }
+    .conseil p{
+        font-style: italic;
+        margin:0;
+        font-size:0.7em;
+    }
+/*PANIER**/
+.panier img{
+    position:absolute;
+right:0;
+top:0.6em;
+    
+    }
+    .panier h2{
+        margin:0;
+        padding-left:6em;
+        font-size:0.8em;
+    }
+    .panier p{
+        font-style: italic;
+        margin:0;
+        padding-left:6em;
+        font-size:0.7em;
+    }
+.clear{
+    clear: both;
+}
+
+nav{
+    height:3vh;
+   
+     display: flex;
+   
+    justify-content:space-between;
+   
+    line-height:3vh;
+ 
+    border:1px solid lightgrey;
+}
+nav a{
+text-decoration:none;
+color:black;
+
+font-weight: bolder;
+
+
+}
+button{
+    padding:10px 10px;
+}
+
+#recherche{
+    
+    font-style: italic;
+    padding:10px 0;
+    font-size: 15px;
+  
+}
+
+/************************************corps de la page********************************/
+
+section{
+    padding:20px 50px;
+}
+/***********bloc1************/
+
+.slider{
+    margin-top:2em;
+    float: left;
+    width:75%;
+    height:40vh;
+}
+ .slider img{
+    width:95%;
+    height:100%;
+} 
+
+.sol{
+    float: left;
+    width:25%; 
+    height:39vh;
+    margin-top:2em;
+   
+}
+.sol p{
+    margin-top:0;
+    background:#D02090;
+    color:white;
+    text-align:center;
+  line-height:2.5vh; 
+    height:2.5vh;
+}
+.sol img{
+ margin-bottom:-5px;
+height:43%;
+width: 100%;
+   
+}
+/*************bloc2*************/
+ 
+
+.information1{
+    float: left;
+    width:80%; 
+}
+.paiement,.garantie,.sentiment,.livraison,.echantillon,.echange{
+    float: left;
+    margin-right:9em;
+}
+
+.information2{
+    float: left;
+    width:20%;
+}
+/*****************************PRODUIT***************************/
+.promotion{
+   display:inline-block;
+    width:10em;
+    height:2em;
+    background:#D02090;
+    border:1px solid #D02090; 
+}
+.promotion h1{
+    font-size:1em;
+    color:white;
+}
+.triangle{
+    margin-left:-0.3em;
+    margin-bottom:-1.3em;
+    display:inline-block;
+    width:0;
+    height:0;
+    border-bottom:3em solid #D02090;
+	border-right:1.5em solid transparent;
+   
+}
+.rectangle{
+    width:11.3em;
+    height:2em;
+    background:#D02090;
+    border:1px solid #D02090;
+    transform:rotate(135deg); 
+    position: absolute;
+    line-height:0.5em;
+    top:3.6em;
+    left:-0.9em;
+    color:white;
+    text-align:center;
+
+    
+}
+.rectangle p{
+    transform: rotate(180deg);
+  
+    background:transparent!important;
+}
+
+.triangle2 {
+    width: 0; 
+    height: 0; 
+    border-right: 2em solid transparent;
+     border-bottom: 2.2em solid #D02090;
+     transform: rotate(225deg);
+     position: absolute;
+        top: 8.4em;
+        left: -1em
+   
+}
+.triangle1 {
+    width: 0; 
+    height: 0; 
+    border-right: 2em solid transparent;
+     border-bottom: 2.2em solid #D02090;
+    transform: rotate(-45deg);
+    position: absolute;
+    top:-1em;
+    left:8.4em;
+   
+}
+
+
+.bloc3{
+   
+    margin:auto; 
+    position: relative; 
+}
+
+  div.image img{
+    width:75%;
+    
+ } 
+.produit1{
+    float: left;
+  margin-top:1em;
+    width:33%;
+    height:50vh;
+}
+
+.produit2{
+    float:left;
+   margin-left:5em;
+    width:33%;
+    height:50vh;
+    position: relative;
+    margin-top:1em;
+
+}
+
+
+.produit3{
+    position:absolute;
+     width:33%;
+    height:50vh;  
+    top:4.5vh;
+    right: 0;
+}
+
+.produit3 .image img{
+    position:absolute;
+    top:0.3vh;
+    right: 0;  
+}
+
+.produit3 .prix{
+    position:absolute;
+    top:30vh;
+    right: 0;  
+}
+.produit3 .bandeau{
+    position:absolute;
+    top:35.8vh;
+    right: 0;   
+}
+.produit3 .bandeau3{
+    position:absolute;
+    top:38vh;
+     right:0;
+
+     width:75%;  
+     height:2.5vh;
+     background:gray!important;
+     text-align:center; 
+     line-height:0;
+     color:white;
+     font-size:0.9em;
+     
+}
+
+.prix{
+    width:75%;
+    border:1px solid lightgrey;
+    text-align: center; 
+   
+   
+}
+.produit1 .bandeau3,.produit2 .bandeau3{
+    width:75%;  
+    height:2.5vh;
+    background:gray!important;
+    text-align:center; 
+    margin-top:-0.7em;
+    color:white;
+    font-size:0.9em;
+}
+
+.produit4{
+    position:absolute;
+    width:33%;
+    height:50vh; 
+    bottom:11vh;
+    right: 0;
+}
+
+.prix p:last-child{
+    color:#D02090;
+    font-weight: bold;
+}
+
+
+.produit4 .image img{
+    position:absolute;
+    bottom:10.5vh;
+    right: 0;  
+}
+.produit4 .prix{
+    position:absolute;
+    bottom:4.5vh;
+    right: 0;  
+}
+.produit4 .bandeau{
+    position:absolute;
+    bottom:2.5vh;
+    right: 0;   
+}
+.produit4 .bandeau3{
+    position:absolute;
+    bottom:0;
+     right:0;
+
+     width:75%;  
+     height:2.5vh;
+     background:gray!important;
+     text-align:center; 
+   
+     color:white;
+     font-size:0.9em;
+     line-height:0;
+}
+
+
+.bandeau{
+    width:75%; 
+    height:2vh;
+    font-size:0.9em;
+    display:flex;
+    flex-direction: row;
+  justify-content:space-around;
+ 
+}
+.bandeau1{
+   background-color:#333333;
+   width:50%;
+   height:2.5vh;
+   color:white; 
+   font-weight: bold; 
+   text-align:center; 
+}
+.bandeau2{
+    background-color:#D02090;
+    width:50%;
+    height:2.5vh;  
+    color:white;
+    font-weight: bold;
+   
+ }
+ .bandeau1 i{
+     color:darkviolet;
+    margin-right:10px; 
+     
+ }
+
+
+
+.eshop{
+    background:#333333;
+  
+}
+.eshop img{
+    float: left;
+    height:30vh;
+}
+
+.eshop1,.eshop2,.eshop3{
+   
+    float: left;
+    width: 32%;/*calc(calc(100% / 3) - 4px);*/
+    color:white;
+}
+.sprite1{
+    width:39px;
+    height:39px;
+    background-image:url("../img/sprites.png");
+    background-position-y:72px;
+    float:left;
+   margin:30px;
+ 
+   
+}
+.eshop1 h5,.eshop1 address{
+margin:30px 0 20px 10px;
+}
+
+.eshop1 p{
+    line-height:0.5em;
+}
+.eshop1 p:nth-of-type(2){
+    margin-left:60px;
+}
+.sprite2{
+    width:39px;
+    height:39px;
+    background-image:url("../img/sprites.png");
+    background-position-y:39px;
+    float:left;
+    margin:30px;
+ 
+   
+}
+.eshop2 h5,.eshop2 p{
+margin:40px 0 0 80px;
+}
+
+.sprite3{
+    width:39px;
+    height:39px;
+    background-image:url("../img/sprites.png");
+    background-position-y:1px;
+    float:left;
+    margin:25px 20px 0 25px;
+    
+ 
+   
+}
+.eshop3 h5,.eshop3 p{
+    margin:40px 0 0 80px;
+}
+
+.sprite4{
+    width:39px;
+    height:39px;
+    background-image:url("../img/sprites.png");
+    background-position-y:139px;
+    float:left;
+    margin:25px 20px 0 25px;
+}
+.eshop1 p:nth-of-type(3){
+    margin-left:90px;
+}
+.sprite5{
+    width:39px;
+    height:39px;
+    background-image:url("../img/sprites.png");
+    background-position-y:105px;
+    float:left;
+    margin:25px 20px 0 25px;
+}
+
+/*******************footer*******************/
+footer{
+ background: #F7F7F0;
+ margin-top:2em;
+}
+.footer1{
+    width:80%;
+  
+    float: left;
+}
+.f1,.f2,.f3{
+    width:33%;
+    float: left;
+}
+
+.footer2{
+    float: left;
+    width:20%;
+}
+.f1 img{
+    float:left;
+    width:20%;
+
+}
+.f1 h5,.f2 h5,.f3 h5{
+    text-align: center;
+}
+.adresse{
+    float:left;
+    width:75%;
+    margin:-1em 0 0 1em;
+    line-height:0.5em;
+}
+
+.adresse h6{
+    margin-bottom:0.5em;
+}
+address{
+font-style: italic;
+font-size:0.9em;
+} 
+
+.adresse p{
+    font-size:0.9em;
+    
+    
+}
+.footer1 .f1 ul{
+    margin-left:-3em;
+    margin-top:8em;
+    list-style:none;
+    text-decoration:underline;
+
+}
+.footer1 .f1 ul li,.footer1 .f2 ul li{
+    margin:4px 4px;
+}
+.footer1 .f2 ul{
+    margin-left:2em;
+    list-style:none;
+    text-decoration:underline; 
+}
+.footer1 .f3 img{
+   margin-left:4em;
+}
+
+
+.formulaire1{
+    width:353px;
+    background: #FFF5EF;
+    text-align: center;
+}
+.formulaire1 input{
+    
+    height:3em;
+    width:200px;
+}
+.formulaire1 button{
+   
+    height:3.5em;
+    width:100px;  
+}
+.formulaire2{
+    width:353px;
+    background: #FFF5EF;  
+}
+.formulaire2 h3,.formulaire2 p{
+    text-align: center;
+}
+.formulaire2 input,.formulaire2 label{
+   
+    margin:1em;
+    height:3em;
+    width:300px;
+   
+}
+.formulaire2 input:last-child{
+  
+    margin:0 100px;
+    height:2.5em;
+    width:100px;  
+}
+.reseau{
+ text-align: center;
+
+}
+.reseau i{
+    margin:1em 1em;
+}

@@ -1,0 +1,114 @@
+#conteneur{
+    width:630px;
+    margin:auto;
+}
+
+/* entete */
+
+header{
+    
+    height:200px;
+    text-align: center;
+  
+    }
+
+header>p{
+    color:#cf884d; 
+    font-size:8px;
+     font-family:Cormorant Garamond;
+}
+
+  nav ul li{
+        font-family:  Cormorant Garamond;
+        display: inline;  
+        
+    }
+
+nav ul li a{
+    color:black;
+    font-size: 12px;
+    
+    font-style: italic;
+}
+
+/* corps de la page */
+
+
+.boite{
+    width:300px;
+    height:260px;
+    float:left;
+   margin:15px 5px;
+  
+}
+.boite:nth-of-type(2) hr{
+    position:relative;
+     top:50px;
+    right:100px; 
+    
+  
+}
+.boite:nth-of-type(2) p{
+    position:relative;
+    top:50px;
+   left:100px; 
+    line-height:3px;
+   
+}
+.boite:nth-of-type(2) p:first-of-type,.boite:nth-of-type(2) p:last-of-type{
+   margin-left:20px;
+}
+.boite:nth-of-type(2) h5{
+    position:relative;
+    top:60px;
+   left:100px; 
+}
+
+
+.boite img{ 
+    /* je demande à l'image de repmir la boite en largeur et la hauteur s'adapte */
+ width:100%;
+ height: auto;
+}
+
+h2{
+    margin-bottom: 0px;
+}
+h1{
+margin:0 auto;
+}
+
+.note{
+    background:black;
+     width:70%; 
+    color:white;
+    }
+    
+.clear{
+    clear: both;
+}
+
+/* pied de page */
+
+footer{
+
+padding:5px;
+text-align: center;
+}
+.plan{
+    background:url("../img/plan.png") no-repeat;
+      width:153px;
+     height: 123px; 
+     margin-left:220px;
+     margin-top:50px;
+
+     
+}
+
+footer .plan p{
+    padding:50px 0 0 20px;
+    font-size:15px;
+    
+}
+
+ 
